@@ -17,7 +17,7 @@ export const Bio = () => (
       <a href="https://twitter.com/szenius" class="link" rel="noopener noreferrer" target="_blank">
         me tweet too
       </a>
-      <a href="https://github.com/szenius" class="link" rel="noopener noreferrer" target="_blank">
+      <a href="https://linkedin.com/in/sze-ying-ting" class="link" rel="noopener noreferrer" target="_blank">
         linkedin
       </a>
       <a href="mailto:ting.szeying@gmail.com" class="link" rel="noopener noreferrer" target="_blank">
