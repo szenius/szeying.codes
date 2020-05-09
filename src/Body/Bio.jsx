@@ -8,19 +8,19 @@ export const Bio = () => (
       💻 🇸🇬
     </span>
     <div>
-      <a href="https://github.com/szenius" class="link">
+      <a href="https://github.com/szenius" class="link" rel="noopener noreferrer" target="_blank">
         fun projects
       </a>
-      <a href="https://dev.to/szenius" class="link">
+      <a href="https://dev.to/szenius" class="link" rel="noopener noreferrer" target="_blank">
         what i'm writing
       </a>
-      <a href="https://twitter.com/szenius" class="link">
+      <a href="https://twitter.com/szenius" class="link" rel="noopener noreferrer" target="_blank">
         me tweet too
       </a>
-      <a href="https://github.com/szenius" class="link">
+      <a href="https://github.com/szenius" class="link" rel="noopener noreferrer" target="_blank">
         linkedin
       </a>
-      <a href="mailto:ting.szeying@gmail.com" class="link">
+      <a href="mailto:ting.szeying@gmail.com" class="link" rel="noopener noreferrer" target="_blank">
         come talk to me
       </a>
     </div>
