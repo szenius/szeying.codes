@@ -58,6 +58,7 @@
   display: inline-block;
   border: 10px solid pink;
   border-radius: 50%;
+  background-color: pink;
 }
 
 .name {
