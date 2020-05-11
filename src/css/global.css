@@ -8,13 +8,14 @@
   height: 25vh;
 }
 
-.profile-icon-wrapper {
-  margin-top: -100px;
-  max-width: 100%;
-  text-align: center;
+.profile-header.collapsed {
+  width: 100%;
+  background-color: pink;
+  height: 7vh;
 }
 
 .profile-icon {
+  margin-top: -100px;
   width: 200px;
   height: 200px;
   background-image: url('../images/pp.jpeg');
@@ -26,10 +27,30 @@
   background-color: pink;
 }
 
+.profile-icon.collapsed {
+  margin-top: -50px;
+  width: 100px;
+  height: 100px;
+  background-image: url('../images/pp.jpeg');
+  background-position: 60% 45%;
+  background-size: 160%;
+  display: inline-block;
+  border: 5px solid pink;
+  border-radius: 50%;
+  background-color: pink;
+}
+
 .profile-name {
   letter-spacing: 7px;
   padding-bottom: 0;
   margin-bottom: 0;
+}
+
+.profile-name.collapsed {
+  letter-spacing: 7px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 12px;
 }
 
 .profile-nickname {
@@ -37,6 +58,11 @@
   padding-top: 0;
   line-height: 80%;
   color: DarkSlateGray;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
 }
 
 .profile-emoji {
@@ -60,6 +86,21 @@
 
 .profile-link:hover,
 .profile-link:visited:hover {
+  color: gold;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.profile-link.inline,
+.profile-link.inline:active,
+.profile-link.inline:visited {
+  margin-top: -500px;
+  display: inline-block;
+  padding: 20px;
+}
+
+.profile-link.inline:hover,
+.profile-link.inline:visited:hover {
   color: gold;
   font-weight: bolder;
   letter-spacing: 2px;
