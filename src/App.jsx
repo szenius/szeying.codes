@@ -1,15 +1,11 @@
-import React from 'react';
-import './css/global.css';
-import {Header} from './Header/Header';
-import {Icon} from './Header/Icon';
-import {Bio} from './Body/Bio';
+import React from "react";
+import "./css/global.css";
+import { Profile } from "./components/profile/Profile";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Icon />
-      <Bio />
+      <Profile />
     </div>
   );
 }
