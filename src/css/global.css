@@ -52,7 +52,7 @@
 .img-circular {
   width: 200px;
   height: 200px;
-  background-image: url("../images/pp.jpeg");
+  background-image: url('../images/pp.jpeg');
   background-position: 60% 45%;
   background-size: 160%;
   display: inline-block;
@@ -88,13 +88,16 @@
   display: block;
 }
 
-a, a:active, a:visited {
+a,
+a:active,
+a:visited {
   color: palevioletred;
   text-decoration: none;
   font-weight: 500;
 }
 
-a:hover, a:visited:hover {
+a:hover,
+a:visited:hover {
   color: gold;
   font-weight: bolder;
   letter-spacing: 2px;
