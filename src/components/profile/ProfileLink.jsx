@@ -3,7 +3,7 @@ import React from 'react';
 export const ProfileLink = ({url, text, className}) => (
   <a
     href={url}
-    class={className}
+    class="profile-link"
     rel="noopener noreferrer"
     target="_blank"
   >
