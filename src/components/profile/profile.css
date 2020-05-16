@@ -1,0 +1,57 @@
+.profile-header {
+  width: 100%;
+  background-color: pink;
+  height: 25vh;
+}
+
+.profile-icon {
+  margin-top: -100px;
+  width: 200px;
+  height: 200px;
+  background-image: url('../../images/pp.jpeg');
+  background-position: 60% 45%;
+  background-size: 160%;
+  display: inline-block;
+  border: 10px solid pink;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.profile-name {
+  letter-spacing: 7px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.profile-nickname {
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 80%;
+  color: DarkSlateGray;
+}
+
+.profile-emoji {
+  line-height: 70px;
+  font-size: 20px;
+  margin-top: 0;
+  padding-top: 0;
+  display: block;
+}
+
+.profile-link,
+.profile-link:active,
+.profile-link:visited {
+  line-height: 170%;
+  font-size: 20px;
+  display: block;
+  color: palevioletred;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.profile-link:hover,
+.profile-link:visited:hover {
+  color: gold;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
