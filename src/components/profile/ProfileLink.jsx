@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const ProfileLink = ({url, text, className}) => (
+export const ProfileLink = ({url, text}) => (
   <a
     href={url}
     class="profile-link"
