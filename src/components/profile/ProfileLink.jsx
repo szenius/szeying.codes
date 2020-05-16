@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const ProfileLink = ({url, text, isProfileExpanded}) => (
+export const ProfileLink = ({url, text, className}) => (
   <a
     href={url}
-    class={'profile-link'.concat(isProfileExpanded ? '' : ' inline')}
+    class={className}
     rel="noopener noreferrer"
     target="_blank"
   >
