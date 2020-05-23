@@ -1,5 +1,5 @@
 export const COLOR_THEMES = {
   PINK: 'pink',
-  BLACK: 'black',
+  GREEN: 'green',
   YELLOW: 'yellow',
 };

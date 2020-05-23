@@ -1,57 +1,104 @@
-.profile-header {
-  width: 100%;
-  background-color: pink;
-  height: 25vh;
+.profile {
+  width: 500px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.profile-icon {
-  margin-top: -100px;
-  width: 200px;
-  height: 200px;
+.profile .body {
+  margin-top: -70px;
+  background: white;
+  width: 100%;
+  padding: 50px;
+}
+
+.profile .mt10 {
+  margin-top: 10px;
+}
+
+.profile .icon {
+  width: 150px;
+  height: 150px;
   background-image: url('../../images/pp.jpeg');
   background-position: 60% 45%;
   background-size: 160%;
-  display: inline-block;
-  border: 10px solid pink;
+  border: 7px solid rgb(255, 255, 255);
   border-radius: 50%;
-  background-color: pink;
+  background-color: white;
+  z-index: 1;
+  position: relative;
 }
 
-.profile-name {
+.profile .header {
   letter-spacing: 7px;
   padding-bottom: 0;
   margin-bottom: 0;
+  font-size: 40px;
 }
 
-.profile-nickname {
+.profile .subheader {
   margin-top: 0;
   padding-top: 0;
   line-height: 80%;
   color: DarkSlateGray;
 }
 
-.profile-emoji {
-  line-height: 70px;
-  font-size: 20px;
-  margin-top: 0;
-  padding-top: 0;
-  display: block;
+.divider {
+  letter-spacing: 10px;
 }
 
-.profile-link,
-.profile-link:active,
-.profile-link:visited {
-  line-height: 170%;
+.block {
+  margin: 30px;
+}
+
+.flex-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile .link,
+.profile .link:active,
+.profile .link:visited {
   font-size: 20px;
-  display: block;
-  color: palevioletred;
   text-decoration: none;
   font-weight: 500;
+  padding: 10px;
+  background-color: #f0f0f0;
+  width: 200px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 5px;
 }
 
-.profile-link:hover,
-.profile-link:visited:hover {
-  color: gold;
-  font-weight: bolder;
+.profile .link:hover,
+.profile .link:visited:hover {
+  font-weight: 900;
   letter-spacing: 2px;
+  color: #222;
 }
+
+@media screen and (max-width: 768px) {
+  .profile-links { height: auto; }
+}
+
+/* .pink-link,
+.pink-link:active,
+.pink-link:visited {
+  color: #fc9d9a;
+}
+
+.blue-link,
+.blue-link:active,
+.blue-link:visited {
+  color: #ffc857;
+}
+
+.green-link,
+.green-link:active,
+.green-link:visited {
+  color: #83af9b;
+} */
