@@ -9,9 +9,7 @@ export const ColorThemeToggle = () => {
 
   return (
     <div class={`color-theme-toggle color-theme-toggle${showDropdown ? '--selected' : ''}`}>
-      {showDropdown && (
-        <ColorThemeToggleDrawer closeDrawer={() => setShowDrawer(false)} />
-      )}
+      {showDropdown && <ColorThemeToggleDrawer closeDrawer={() => setShowDrawer(false)} />}
       <ColorThemeToggleButton color={state.colorTheme} onClick={() => setShowDrawer(!showDropdown)} />
     </div>
   );

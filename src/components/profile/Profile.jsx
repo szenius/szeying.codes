@@ -17,11 +17,11 @@ export const Profile = () => {
           🌻🌻🌻
         </span>
         <p class="profile-content__paragraph">
-          Hello! I am a <span class={`profile-content__accent--${colorTheme}`}>Software Engineer</span> from Singapore. I don't want to restrict
-          myself to one field just yet, but I am currently dabbling most in web development. I graduated from
-          National University of Singapore in 2019 with a Double Degree in Computer Science and Business
-          Administration. I volunteer at BLESS to help improve literacy rates of young low-income children
-          regularly.
+          Hello! I am a <span class={`profile-content__accent--${colorTheme}`}>Software Engineer</span> from
+          Singapore. I don't want to restrict myself to one field just yet, but I am currently dabbling most
+          in web development. I graduated from National University of Singapore in 2019 with a Double Degree
+          in Computer Science and Business Administration. I volunteer at BLESS to help improve literacy rates
+          of young low-income children regularly.
         </p>
         <div className="profile-content__links">
           <ProfileLink url="https://github.com/szenius" text="side projects" />
