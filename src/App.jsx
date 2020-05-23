@@ -1,15 +1,15 @@
 import React, {useContext} from 'react';
-import './global.css';
 import {Profile} from './components/profile/Profile';
-import {ColorThemeToggle} from './components/theme/ColorThemeToggle';
+import {ThemeToggle} from './components/theme/ThemeToggle';
 import {Context} from './context/ContextProvider';
+import './global.css';
 
 function App() {
   const {state} = useContext(Context);
   return (
     <div className={`App ${state.colorTheme}-bg`}>
       <Profile />
-      <ColorThemeToggle />
+      <ThemeToggle />
     </div>
   );
 }
