@@ -1,13 +1,13 @@
 import React from 'react';
 import './global.css';
 import {Profile} from './components/profile/Profile';
-import {ColorToggle} from './components/toggle/ColorToggle';
+import {ColorThemeToggle} from './components/theme/ColorThemeToggle';
 
 function App() {
   return (
     <div className="App">
       <Profile />
-      <ColorToggle />
+      <ColorThemeToggle />
     </div>
   );
 }
