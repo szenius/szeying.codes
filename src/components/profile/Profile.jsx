@@ -24,11 +24,11 @@ export const Profile = () => {
           of young low-income children regularly.
         </p>
         <div className="profile-content__links">
-          <ProfileLink url="https://github.com/szenius" text="side projects" />
-          <ProfileLink url="https://dev.to/szenius" text="my dev blog" />
+          <ProfileLink url="https://github.com/szenius" text="projects" />
+          <ProfileLink url="https://dev.to/szenius" text="dev blog" />
           <ProfileLink url="https://twitter.com/szenius" text="me twitter" />
           <ProfileLink url="https://linkedin.com/in/sze-ying-ting" text="linkedin" />
-          <ProfileLink url="https://medium/@szenius" text="medium" />
+          <ProfileLink url="https://medium/@szenius" text="ded medium" />
           <ProfileLink url="mailto:ting.szeying@gmail.com" text="talk to me" />
         </div>
       </div>
