@@ -1,0 +1,44 @@
+.color-theme-toggle {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.color-theme-toggle--selected {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.color-theme-toggle-drawer {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-theme-toggle__button {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  text-decoration: none;
+  margin: 5px;
+  border: 0;
+}
+
+.color-theme-toggle__button--selected {
+  border: 5px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50px;
+  height: 50px;
+}
+
+.color-theme-toggle__button--pink {
+  background-color: #fc9d9a;
+}
+
+.color-theme-toggle__button--yellow {
+  background-color: #f9cdad;
+}
+
+.color-theme-toggle__button--green {
+  background-color: #83af9b;
+}

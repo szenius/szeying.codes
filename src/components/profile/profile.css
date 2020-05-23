@@ -1,57 +1,118 @@
-.profile-header {
-  width: 100%;
-  background-color: pink;
-  height: 25vh;
+.profile {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.profile-icon {
-  margin-top: -100px;
-  width: 200px;
-  height: 200px;
+.profile__content {
+  background: white;
+  padding: 50px;
+}
+
+.profile__icon {
+  margin-bottom: -70px;
+  width: 150px;
+  height: 150px;
   background-image: url('../../images/pp.jpeg');
   background-position: 60% 45%;
   background-size: 160%;
-  display: inline-block;
-  border: 10px solid pink;
+  border: 7px solid rgb(255, 255, 255);
   border-radius: 50%;
-  background-color: pink;
+  background-color: white;
+  z-index: 1;
 }
 
-.profile-name {
+.profile-content__header {
   letter-spacing: 7px;
   padding-bottom: 0;
   margin-bottom: 0;
+  font-size: 40px;
 }
 
-.profile-nickname {
+.profile-content__subheader {
   margin-top: 0;
   padding-top: 0;
   line-height: 80%;
   color: DarkSlateGray;
 }
 
-.profile-emoji {
-  line-height: 70px;
-  font-size: 20px;
-  margin-top: 0;
-  padding-top: 0;
-  display: block;
+.profile-content__emoji-divider {
+  letter-spacing: 10px;
+}
+
+.profile-content__paragraph {
+  margin: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .profile-content__emoji-divider {
+    letter-spacing: 10px;
+    line-height: 300%;
+  }
+
+  .profile-content__paragraph {
+    display: none;
+  }
+}
+
+.profile-content__accent--pink {
+  font-weight: 700;
+  color: #e37874;
+}
+
+.profile-content__accent--yellow {
+  font-weight: 700;
+  color: #dfa983;
+}
+
+.profile-content__accent--green {
+  font-weight: 700;
+  color: #669b83;
+}
+
+.profile-content__links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .profile-link,
 .profile-link:active,
 .profile-link:visited {
-  line-height: 170%;
   font-size: 20px;
-  display: block;
-  color: palevioletred;
   text-decoration: none;
   font-weight: 500;
+  padding: 10px;
+  background-color: #f0f0f0;
+  width: 200px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 5px;
 }
 
 .profile-link:hover,
 .profile-link:visited:hover {
-  color: gold;
-  font-weight: bolder;
+  font-weight: 900;
   letter-spacing: 2px;
+  color: #222;
+}
+
+.profile-link__pink:hover,
+.profile-link__pink:visited:hover {
+  background-color: #fc9d9a;
+  border-bottom: 3px solid #e37874;
+}
+
+.profile-link__green:hover,
+.profile-link__green:visited:hover {
+  background-color: #83af9b;
+  border-bottom: 3px solid #669b83;
+}
+
+.profile-link__yellow:hover,
+.profile-link__yellow:visited:hover {
+  background-color: #f9cdad;
+  border-bottom: 3px solid #dfa983;
 }
