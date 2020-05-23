@@ -6,7 +6,12 @@ export const ProfileLink = ({url, text}) => {
   const colorTheme = state.colorTheme;
 
   return (
-    <a href={url} class={`link ${colorTheme}-link`} rel="noopener noreferrer" target="_blank">
+    <a
+      href={url}
+      class={`profile-link profile-link__${colorTheme}`}
+      rel="noopener noreferrer"
+      target="_blank"
+    >
       {text}
     </a>
   );

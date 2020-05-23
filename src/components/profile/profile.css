@@ -1,5 +1,5 @@
 .profile {
-  width: 500px;
+  max-width: 500px;
   height: 80%;
   display: flex;
   flex-direction: column;
@@ -7,18 +7,18 @@
   text-align: center;
 }
 
-.profile .body {
+.profile__body {
   margin-top: -70px;
   background: white;
   width: 100%;
   padding: 50px;
 }
 
-.profile .mt10 {
+.profile-content {
   margin-top: 10px;
 }
 
-.profile .icon {
+.profile__icon {
   width: 150px;
   height: 150px;
   background-image: url('../../images/pp.jpeg');
@@ -28,40 +28,39 @@
   border-radius: 50%;
   background-color: white;
   z-index: 1;
-  position: relative;
 }
 
-.profile .header {
+.profile-content__header {
   letter-spacing: 7px;
   padding-bottom: 0;
   margin-bottom: 0;
   font-size: 40px;
 }
 
-.profile .subheader {
+.profile-content__subheader {
   margin-top: 0;
   padding-top: 0;
   line-height: 80%;
   color: DarkSlateGray;
 }
 
-.divider {
+.profile-content__emoji-divider {
   letter-spacing: 10px;
 }
 
-.block {
+.profile-content__paragraph {
   margin: 30px;
 }
 
-.flex-wrap {
+.profile-content__links {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.profile .link,
-.profile .link:active,
-.profile .link:visited {
+.profile-link,
+.profile-link:active,
+.profile-link:visited {
   font-size: 20px;
   text-decoration: none;
   font-weight: 500;
@@ -74,16 +73,16 @@
   margin: 5px;
 }
 
-.profile .link:hover,
-.profile .link:visited:hover {
+.profile-link:hover,
+.profile-link:visited:hover {
   font-weight: 900;
   letter-spacing: 2px;
   color: #222;
 }
 
-@media screen and (max-width: 768px) {
-  .profile-links { height: auto; }
-}
+/* @media screen and (max-width: 768px) {
+  .profile-content__links { height: auto; }
+} */
 
 /* .pink-link,
 .pink-link:active,
