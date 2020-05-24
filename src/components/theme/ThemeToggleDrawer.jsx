@@ -9,7 +9,7 @@ export const ThemeToggleDrawer = ({closeDrawer}) => {
   const changeColorTheme = (newColorTheme) => dispatch(setColorTheme(newColorTheme));
 
   return (
-    <div class="color-theme-toggle-drawer">
+    <div class="toggle-drawer">
       {Object.values(COLOR_THEMES).map(
         (color) =>
           color !== state.colorTheme && (
