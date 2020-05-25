@@ -20,8 +20,8 @@ export const Profile = () => {
           Hello! I am a <span class={`profile-content__accent--${colorTheme}`}>Software Engineer</span> from
           Singapore. I don't want to restrict myself to one field just yet, but I am currently dabbling most
           in web development. I graduated from National University of Singapore in 2019 with a Double Degree
-          in Computer Science and Business Administration. I volunteer at BLESS to help improve literacy rates
-          of young low-income children regularly.
+          in Computer Science and Business Administration. I volunteer regularly at BLESS to help improve literacy rates
+          of young low-income children.
         </p>
         <div className="profile-content__links">
           <ProfileLink url="https://github.com/szenius" text="projects" />
