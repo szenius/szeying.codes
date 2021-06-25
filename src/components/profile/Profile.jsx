@@ -28,7 +28,7 @@ export const Profile = () => {
           <ProfileLink url="https://dev.to/szenius" text="dev blog" />
           <ProfileLink url="https://twitter.com/szenius" text="twitter" />
           <ProfileLink url="https://linkedin.com/in/sze-ying-ting" text="linkedin" />
-          <ProfileLink url="https://www.youtube.com/channel/UCiQMR1Ro4iRQpjuN_tzRD3w" text="youtube" />
+          <ProfileLink url="https://www.youtube.com/user/jellyboowow?sub_confirmation=1" text="youtube" />
           <ProfileLink url="mailto:ting.szeying@gmail.com" text="email" />
         </div>
       </div>
